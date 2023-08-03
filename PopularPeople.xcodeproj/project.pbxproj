@@ -13,6 +13,7 @@
 		CC7480642A7C2655006F7EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7480622A7C2655006F7EBE /* Main.storyboard */; };
 		CC7480662A7C2656006F7EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7480652A7C2656006F7EBE /* Assets.xcassets */; };
 		CC7480692A7C2656006F7EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7480672A7C2656006F7EBE /* LaunchScreen.storyboard */; };
+		CC7480732A7C2A82006F7EBE /* PopularPeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7480722A7C2A82006F7EBE /* PopularPeopleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC7480652A7C2656006F7EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7480682A7C2656006F7EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC74806A2A7C2656006F7EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7480722A7C2A82006F7EBE /* PopularPeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularPeopleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		CC74805B2A7C2655006F7EBE /* PopularPeople */ = {
 			isa = PBXGroup;
 			children = (
+				CC7480712A7C2A2B006F7EBE /* Service */,
 				CC74805C2A7C2655006F7EBE /* AppDelegate.swift */,
 				CC74805E2A7C2655006F7EBE /* SceneDelegate.swift */,
 				CC7480602A7C2655006F7EBE /* ViewController.swift */,
-				CC7480622A7C2655006F7EBE /* Main.storyboard */,
-				CC7480652A7C2656006F7EBE /* Assets.xcassets */,
-				CC7480672A7C2656006F7EBE /* LaunchScreen.storyboard */,
+				CC7480702A7C29F7006F7EBE /* Resources */,
 				CC74806A2A7C2656006F7EBE /* Info.plist */,
 			);
 			path = PopularPeople;
+			sourceTree = "<group>";
+		};
+		CC7480702A7C29F7006F7EBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC7480622A7C2655006F7EBE /* Main.storyboard */,
+				CC7480652A7C2656006F7EBE /* Assets.xcassets */,
+				CC7480672A7C2656006F7EBE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC7480712A7C2A2B006F7EBE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC7480722A7C2A82006F7EBE /* PopularPeopleService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				CC7480612A7C2655006F7EBE /* ViewController.swift in Sources */,
 				CC74805D2A7C2655006F7EBE /* AppDelegate.swift in Sources */,
+				CC7480732A7C2A82006F7EBE /* PopularPeopleService.swift in Sources */,
 				CC74805F2A7C2655006F7EBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
