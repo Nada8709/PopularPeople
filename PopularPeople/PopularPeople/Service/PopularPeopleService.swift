@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol PopularPeopleService : class {
+protocol PopularPeopleService{
     func fetchPopularPeople(pageNumber: Int, completion: @escaping ([Any]?) -> Void)
 }
 
